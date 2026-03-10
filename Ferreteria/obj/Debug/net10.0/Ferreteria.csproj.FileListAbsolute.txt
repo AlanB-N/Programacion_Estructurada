@@ -1,0 +1,15 @@
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\bin\Debug\net10.0\Ferreteria.exe
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\bin\Debug\net10.0\Ferreteria.deps.json
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\bin\Debug\net10.0\Ferreteria.runtimeconfig.json
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\bin\Debug\net10.0\Ferreteria.dll
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\bin\Debug\net10.0\Ferreteria.pdb
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.AssemblyInfo.cs
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.sourcelink.json
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.dll
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\refint\Ferreteria.dll
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.pdb
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\Ferreteria.genruntimeconfig.cache
+C:\Users\pc\Documents\UTVM\Estructurada\Programacion_Estructurada\Ferreteria\obj\Debug\net10.0\ref\Ferreteria.dll
