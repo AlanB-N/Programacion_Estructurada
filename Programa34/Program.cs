@@ -29,6 +29,7 @@ class Program34
             {
                 case 1:
                     {
+                        Console.Clear();
                         Console.WriteLine("Cubo");
                         Console.WriteLine("SuperPrograma v2");
                         Console.WriteLine("Elija que desea calcular");
@@ -39,6 +40,7 @@ class Program34
                         {
                             case 1:
                                 {
+
                                     Console.WriteLine("Area");
                                     Console.WriteLine("Ingrese arista(lado)");
                                     double arista=Convert.ToDouble(Console.ReadLine());
@@ -68,6 +70,7 @@ class Program34
                 //Paralelepipedo
                 case 2:
                     {
+                        Console.Clear();
                         double a,b,c;
                         Console.WriteLine("SuperPrograma v2");
                         Console.WriteLine("Paralelepipedo");
@@ -113,6 +116,7 @@ class Program34
 
                 case 3:
                     {
+                        Console.Clear();
                         double lado,altura;
                         Console.WriteLine("Piramide");
                         Console.WriteLine("SuperPrograma v2");
@@ -129,6 +133,7 @@ class Program34
                             case 1:
                                 {
                                     Console.WriteLine("Area");
+                                    Program34.AreaPir(lado, altura);
 
                                     break;
                                 }
@@ -136,7 +141,7 @@ class Program34
                             case 2:
                                 {
                                     Console.WriteLine("Volumen");
-
+                                    Program34.VolPir(lado, altura);
                                     break;
                                 }
 
@@ -154,6 +159,7 @@ class Program34
 
                 case 4:
                     {
+                        Console.Clear();
                         double radio,altura;
                         Console.WriteLine("Cilindro");
                         Console.WriteLine("SuperPrograma v2");
@@ -170,14 +176,14 @@ class Program34
                             case 1:
                                 {
                                     Console.WriteLine("Area");
-                                    Program34.AreaCil(radio,altura);
+                                    Program34.AreaCil(altura,radio);
                                     break;
                                 }
 
                             case 2:
                                 {
                                     Console.WriteLine("Volumen");
-                                    Programa.VolCil(altura,radio);
+                                    Program34.VolCil(altura,radio);
                                     break;
                                 }
 
@@ -194,6 +200,7 @@ class Program34
 
                 case 5:
                     {
+                        Console.Clear();
                         double radio,altura, generatriz;
                         Console.WriteLine("Cono");
                         Console.WriteLine("SuperPrograma v2");
@@ -238,6 +245,7 @@ class Program34
 
                 case 6:
                     {
+                        Console.Clear();
                         double radio;
                         Console.WriteLine("Esfera");
                         Console.WriteLine("SuperPrograma v2");
@@ -314,6 +322,7 @@ class Program34
     {
         double volumen;
         volumen=a*b*c;
+        Console.WriteLine("El volumen es "+volumen);
     }
 
     static void AreaCil(double altura,double radio)
@@ -322,7 +331,7 @@ class Program34
         area=(2*3.1416*radio)*(altura+radio);
         Console.WriteLine("El area total del cilindro es "+area);
     }
-    static void VolCil(double radio,double altura)
+    static void VolCil(double altura,double radio)
     {
         double vol;
         vol=(3.1416*(radio*radio)*altura);
@@ -349,11 +358,24 @@ class Program34
     static void volEsf(double radio)
     {
         double vol,pi=3.1416;
-        vol=((4/3)*pi*(radio*radio));
+        vol=((4.0/3.0)*pi*(radio*radio*radio));
         Console.WriteLine("el volumen de la esfera es "+vol);
     }
-    static void areaPir(double radio)
+    static void AreaPir(double lado,double altura)
     {
-        
+        double apBase = lado * (Math.Sqrt(3) / 2.0);
+        double perimetro = 6 * lado;
+        double areaBase = (perimetro * apBase) / 2.0;
+        double apPiramide = Math.Sqrt(Math.Pow(altura, 2) + Math.Pow(apBase, 2));
+        double areaLateral = 6 * ((lado * apPiramide) / 2.0);
+        double areaTotal = Math.Round( (areaBase + areaLateral),4);
+        Console.WriteLine("El area total de la piramide hexagonal es: " + areaTotal);
+    }
+    static void VolPir(double lado,double altura)
+    {
+        double apBase = lado * (Math.Sqrt(3) / 2.0);
+        double areaBase = (6 * lado * apBase) / 2.0;
+        double volumen = Math.Round((areaBase * altura) / 3.0,4);
+        Console.WriteLine("El volumen de la piramide hexagonal es: " + volumen);
     }
 }

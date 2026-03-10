@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Baez Nopal Alan 2E\\HolaMundo\\HolaMundo.csproj": {}
+    "C:\\Users\\pc\\Documents\\UTVM\\Estructurada\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Baez Nopal Alan 2E\\HolaMundo\\HolaMundo.csproj": {
+    "C:\\Users\\pc\\Documents\\UTVM\\Estructurada\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Baez Nopal Alan 2E\\HolaMundo\\HolaMundo.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Documents\\UTVM\\Estructurada\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj",
         "projectName": "HolaMundo",
-        "projectPath": "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Baez Nopal Alan 2E\\HolaMundo\\HolaMundo.csproj",
-        "packagesPath": "C:\\Users\\alang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Baez Nopal Alan 2E\\HolaMundo\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Documents\\UTVM\\Estructurada\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Documents\\UTVM\\Estructurada\\Programacion_Estructurada\\HolaMundo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -57,19 +57,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.13, 9.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.13, 9.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.13, 9.0.13]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.13, 9.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
