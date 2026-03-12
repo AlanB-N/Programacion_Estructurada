@@ -3,7 +3,7 @@
 // Cuatrimestre y grupo: 2º E
 //Version: 1
 
-/* Estructura switch 2*/
+/* Calculadora de figuras geometriccas*/
 
 using System;
 class Program34
