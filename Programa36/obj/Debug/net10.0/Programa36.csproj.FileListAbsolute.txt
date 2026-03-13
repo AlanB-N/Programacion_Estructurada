@@ -1,0 +1,5 @@
+C:\Users\alang\OneDrive\Documents\UTVM\Programacion_Estructurada\Programa36\obj\Debug\net10.0\Programa36.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alang\OneDrive\Documents\UTVM\Programacion_Estructurada\Programa36\obj\Debug\net10.0\Programa36.AssemblyInfoInputs.cache
+C:\Users\alang\OneDrive\Documents\UTVM\Programacion_Estructurada\Programa36\obj\Debug\net10.0\Programa36.AssemblyInfo.cs
+C:\Users\alang\OneDrive\Documents\UTVM\Programacion_Estructurada\Programa36\obj\Debug\net10.0\Programa36.csproj.CoreCompileInputs.cache
+C:\Users\alang\OneDrive\Documents\UTVM\Programacion_Estructurada\Programa36\obj\Debug\net10.0\Programa36.sourcelink.json
