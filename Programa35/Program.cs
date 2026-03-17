@@ -24,8 +24,6 @@ namespace Programa34
                 opc2=Convert.ToInt32(Console.ReadLine()); 
            } while (opc2==1);
 
-           
-
         } 
         static void serieFibonacci(int max,int inicioA, int inicioB)
         {

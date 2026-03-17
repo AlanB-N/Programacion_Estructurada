@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj": {}
+    "C:\\Users\\gearo\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj": {
+    "C:\\Users\\gearo\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj",
+        "projectUniqueName": "C:\\Users\\gearo\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj",
         "projectName": "HolaMundo",
-        "projectPath": "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj",
-        "packagesPath": "C:\\Users\\alang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alang\\OneDrive\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\obj\\",
+        "projectPath": "C:\\Users\\gearo\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\HolaMundo.csproj",
+        "packagesPath": "C:\\Users\\gearo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gearo\\Documents\\UTVM\\Programacion_Estructurada\\HolaMundo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\gearo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -57,19 +64,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.12, 9.0.12]"
+              "version": "[9.0.14, 9.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
